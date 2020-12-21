@@ -8,10 +8,13 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 
-
+// Built in middleware Express functions
 app.use(express.static('public'));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
+
+
+//Get is a middleware fucntion for requesting data
 
 app.get("/notes", function(req, res) {
     res.sendFile(path.join(main, "notes.html"));
@@ -30,6 +33,9 @@ app.get("/api/notes", function(req, res) {
 app.get("*", function(req, res) {
     res.sendFile(path.join(main, "index.html"));
 });
+
+
+// 'Post' is a middleware function for Submitting data
 
 app.post("/api/notes", function(req, res) {
     let mysavedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
