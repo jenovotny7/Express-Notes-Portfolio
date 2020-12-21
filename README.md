@@ -22,12 +22,12 @@ This project is to create an application called Note Taker that can be used to w
 ​
 To install necessary dependencies, run the following command:
 ​
-git clone <repo> then run 'npm install' in the CLI
+git clone <repo>, then run 'npm install' in the CLI.
   
 ​
 ## Usage
 ​
-To create a note full stack taking app through Express JS. Each note is saved through a unique ID created in a notes array via JSON.
+To create a note full stack note taking app through Express JS. Each note is saved through a unique ID created in a notes array via JSON.
 
 
 ## License
