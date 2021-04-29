@@ -42,11 +42,7 @@ This project is licensed under the MIT license.
 
 ## HEROKU LINKS
 
-https://dashboard.heroku.com/apps/hidden-shore-05100
-
-https://hidden-shore-05100.herokuapp.com/
-
-
+https://boiling-tor-92880.herokuapp.com/notes
 
 ## Questions
 ​
